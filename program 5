@@ -1,0 +1,24 @@
+\documentclass{10pt,a4paper}{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multirow}
+\begin{document}
+\begin{center}
+\begin{large}
+\textbf{Table Demo}
+\end{large}
+\end{center}
+\section*{Marks Table}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{S.NO}&\multirow{2}{*}{USN}&\multirow{2}{*}{Student Name}&\multicolumn{3}{c|}{Marks}\\
+\cline{4-6}
+&&&Subject 1&Subject 2&Subject 3\\
+\hline
+1&4xx22xx001&Name 1&88&77&97\\
+\hline
+2&4xx22xx002&Name 2&74&78&66\\
+\hline1
+3&4xx22xx003&Name 3&88&82&79\\
+\hline
+\end{tabular}
+\end{document}
