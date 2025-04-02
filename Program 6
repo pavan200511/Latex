@@ -1,0 +1,38 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\section{subfigure demo}
+\begin{figure}{h}
+\centering
+\begin{subfigure}[b]{0.3\textwidth}
+\centering
+\includegraphics[width=\textwidth]{/home/pc/latex/graph1.png}
+\caption{$y=x$}
+\label{fig:y equals x}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.3\textwidth}
+\centering
+\includegraphics[width=\textwidth]{/home/pc/latex/graph2.png}
+\caption{$ y=3\sin x$}
+\label{fig:three sin x}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.3\textwidth}
+\centering
+\includegraphics[width=\textwidth]{/home/pc/latex/graph3.png}
+\caption{$y=s/x$}
+\label{fig:five over x}
+\end{subfigure}
+\caption{three simple graphs arranged side-by-side}
+\label{fig:three graphs}
+\end{figure}
+\end{document}
+
